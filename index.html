@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS and Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+          </ul>
+          <a class="btn btn-outline-light" href="#contact">Contact Me!</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-dark text-light text-center py-5" id="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-3 fw-bold">SANNIDHI KAILAJE</h1>
+            <p class="lead">Frontend Developer | Tech Enthusiast</p>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="#projects" class="btn btn-light btn-lg">View Projects</a>
+              <!-- Download Resume Button -->
+              <a href="resume-sannidhi kailaje.pdf" class="btn btn-outline-light btn-lg" download>
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="hero-section-img-removebg-preview.png"
+              class="img-fluid"
+              alt="Hero Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Know About Me Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Left Column: Profile Info -->
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="d-flex justify-content-center">
+                <img src="myphoto.jpg" alt="Profile Image" class="img-fluid rounded-circle mt-4" style="width: 150px;">
+              </div>
+              <h3 class="mt-3">Sannidhi Kailaje</h3>
+              <p>Frontend Developer</p>
+              <p>Navi Mumbai, Maharashtra</p>
+              <div class="list-group mt-4 mx-3">
+                <h5 class="card-subtitle mt-3 mb-2 text-muted">Skill Status</h5>
+                    <p>Graphic Design</p>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-secondary" role="progressbar" style=" width:50%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Figma</p>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>HTML/CSS/JS</p>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>React</p>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p>Python</p>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-secondary" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Right Column: About Info and Project Status -->
+          <div class="col-md-8">
+            <!-- Know About Me Section -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Know About Me</h5>
+                <p class="lead">
+                  I am a passionate developer with a keen interest in solving real-world problems through technology. With expertise in both front-end and back-end development, I strive to create seamless, user-friendly, and efficient applications.
+                </p>
+                <p class="lead">
+                  With a strong foundation in computer science and experience in various projects, I am committed to constantly learning and improving my skills to deliver top-notch solutions.
+                </p>
+              </div>
+            </div>
+    
+            <!-- Schooling Section -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Schooling</h5>
+                <h6>DAV Public School, New Panvel</h6>
+                <p>12th, PCM - 95%</p>
+              </div>
+            </div>
+    
+            <!-- Educational Qualifications Section -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Educational Qualifications</h5>
+                <h6>Vivekanand Education Society's Institute of Technology</h6>
+                <p>Bachelor's Degree in Information Technology</p>
+              </div>
+            </div>
+    
+            <!-- Achievements Section -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Achievements</h5>
+                <h6>Sr. Graphics Officer at Quest IT</h6>
+                <p>Learned graphics and team building</p>
+              </div>
+            </div>
+    
+            <!-- College Participation Section -->
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">College Participation</h5>
+                <ul class="list-unstyled">
+                  <li>Invictus Hackathon</li>
+                  <li>GDSC Solution Challenge</li>
+                </ul>
+              </div>
+            </div>
+    
+    
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="mb-4">Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="PROJECT1.jpeg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">INTERNSHUB</h5>
+                <h6>HTML, CSS , JS , MongoDB, Node.JS</h6>
+                <p class="card-text">
+                  
+                        Developed an Internship recommendation system for students
+                        of different fields.
+                        implemented features that eases search for jobs.
+                        contributed to the frontend of the project using html/CSS/JS
+                        created the profile page setup of the user .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="project2.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">ECOTRACK</h5>
+                <h6>HTML, CSS , JS , MongoDB, Node.JS</h6>
+                <p class="card-text">
+                  Developed an website which aimed at calculating the carbon
+                  footprints of the user on the environment and providing the
+                  solution to reduce it.
+                  implemented features that provides ecological solutions to the
+                  increased global warming.
+                  provided with statistics of increase in carbon footprints by
+                  entire population and its effects on the environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="project3.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">FNP </h5>
+                <p class="card-text">
+                  The Ferns N Petals (FNP) website offers numerous benefits, making it a convenient platform for customers seeking quality floral and gifting services. With its user-friendly interface, FNP provides an extensive range of products, including flowers, cakes, personalized gifts, plants, and more, catering to various occasions like birthdays, anniversaries, and festivals. The website ensures a seamless shopping experience with features like same-day and midnight delivery options, making it easier for customers to surprise loved ones. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Skills</h2>
+        <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Carousel inner -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>HTML</h5>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>CSS</h5>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>JavaScript</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>Python</h5>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>React</h5>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="border p-3 h-100">
+                    <h5>Node.js</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Controls -->
+          <button class="carousel-control-prev visible-control" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next visible-control" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    
+          <!-- Indicators (dots) -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="1"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Custom CSS to make the arrows and dots visible -->
+    <style>
+      /* Arrow button visibility */
+      .visible-control {
+        visibility: visible !important;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+      }
+      
+      /* Adjust positioning for the arrows */
+      .carousel-control-prev,
+      .carousel-control-next {
+        top: 50%;
+        transform: translateY(-50%);
+        width: 5%; /* Adjust width if needed */
+      }
+    
+      /* Dots (indicators) styling */
+      .carousel-indicators {
+        bottom: -30px; /* Adjust position of dots if needed */
+      }
+    
+      .carousel-indicators button {
+        width: 12px;
+        height: 12px;
+        background-color: #000;
+        border-radius: 50%;
+      }
+    </style>
+    
+    
+    
+    
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+      <div class="container text-center">
+        <h2 class="mb-4 text-light">Contact Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="d-flex flex-column justify-content-around">
+              <p >
+                <a href="mailto:2022.sannidhi.kailaje@ves.ac.in" class="text-decoration-none text-secondary">
+                  <i class="bi bi-envelope-fill text-secondary"></i> Email
+                </a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/in/sannidhi-kailaje-011a312a4/" target="_blank" class="text-decoration-none text-secondary">
+                  <i class="bi bi-linkedin text-secondary"></i> LinkedIn
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/Skailaje" target="_blank" class="text-decoration-none text-secondary">
+                  <i class="bi bi-github text-secondary "></i> GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3">
+      <div class="container text-center">
+        <p class="mb-0">&copy; 2024 SANNIDHI KAILAJE. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
